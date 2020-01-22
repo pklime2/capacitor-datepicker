@@ -8,7 +8,7 @@ export interface DatePickerOptions {
     mode: 'date' | 'time';
     title: string;
     date: string;
-    is24Hours?: false;
+    is24Hours?: boolean;
     theme?: string;
     cancelText?: string;
     okText?: string;
