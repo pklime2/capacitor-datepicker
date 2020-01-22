@@ -70,7 +70,8 @@ public class DatePickerPlugin extends Plugin {
             calendar.setTime(javaData);
             if (mode.equals("time")) {
 
-                TimePickerDialog timePickerDialog = new TimePickerDialog(getContext(), getTheme(theme), new TimePickerDialog.OnTimeSetListener() {
+                final TimePickerDialog timePickerDialog = new 
+                        TimePickerDialog(getContext(), getTheme(theme), new TimePickerDialog.OnTimeSetListener() {
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
                         Calendar calendar1 = Calendar.getInstance();
