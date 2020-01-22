@@ -104,6 +104,7 @@ public class DatePickerPlugin extends Plugin {
                     public void onClick(View v) {
                         res.put("value", null);
                         call.resolve(res);
+                        timePickerDialog.dismiss();
                     }
                 });
 
@@ -166,6 +167,7 @@ public class DatePickerPlugin extends Plugin {
                     public void onClick(View v) {
                         res.put("value", null);
                         call.resolve(res);
+                        datePickerDialog.dismiss();
                     }
                 });
 
