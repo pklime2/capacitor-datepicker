@@ -1,8 +1,6 @@
 # Capacitor DatePicker
-[![npm](https://img.shields.io/npm/v/capacitor-datepicker.svg)](https://www.npmjs.com/package/capacitor-datepicker)
-[![npm](https://img.shields.io/npm/dt/capacitor-datepicker.svg?label=npm%20downloads)](https://www.npmjs.com/package/capacitor-datepicker)
-[![Build Status](https://travis-ci.org/triniwiz/capacitor-datepicker.svg?branch=master)](https://travis-ci.org/triniwiz/capacitor-datepicker)
 
+Fork of `triniwiz/capacitor-datepicker` with minor customizations and bug fixes
 
 ## Installation
 
