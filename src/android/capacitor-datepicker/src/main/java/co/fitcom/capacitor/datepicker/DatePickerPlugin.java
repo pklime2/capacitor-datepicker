@@ -147,7 +147,7 @@ public class DatePickerPlugin extends Plugin {
 
                 if (min != null) {
                     Date mixDate = fromISO8601UTC(min);
-                    picker.setMaxDate(mixDate.getTime());
+                    picker.setMinDate(mixDate.getTime());
                 }
 
 
