@@ -197,12 +197,12 @@ public class DatePickerPlugin: CAPPlugin , UIPopoverPresentationControllerDelega
             }
 
             if(mode == "time"){
-                self.picker?.datePickerMode = UIDatePickerMode.time
+                self.picker?.datePickerMode = UIDatePicker.Mode.time
                 if(is24Hours){
                     self.picker?.locale = Locale(identifier: "en_GB")
                 }
             }else{
-                self.picker?.datePickerMode = UIDatePickerMode.date
+                self.picker?.datePickerMode = UIDatePicker.Mode.date
             }
 
 
