@@ -8,3 +8,4 @@ demo/android/app/build
 src/android/capacitor-datepicker/build
 src/android/capacitor-datepicker/.gradle
 demo/.gradle
+android/local.properties
